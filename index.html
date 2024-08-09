@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        
+        #particles-js {
+            height: 100%;
+            background: rgb(125, 178, 182);
+        }
+        .container {
+            width: 100vw;
+            height: 100vh;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .container p {
+            font-size: 30px;
+            position: absolute;
+            top: 50%;
+            left: 30%;
+            overflow-y: hidden !important;
+        }
+        .container .btn {
+            position: absolute;
+            top: 65%;
+            left: 40%;
+            cursor: pointer;
+            width: 6vw;
+            height: 4vh;
+            border-radius: 20px;
+            background: rgb(172, 235, 135);
+        }
+        .container .btn-2 {
+            position: absolute;
+            top: 65%;
+            left: 60%;
+            cursor: pointer;
+            width: 6vw;
+            height: 4vh;
+            border-radius: 20px;
+            background: rgb(172, 235, 135);
+        }
+
+        .container .btn a,.btn-2 a{
+            text-decoration: none;
+            color: black;
+            font-weight: 700;
+        }
+        @media only screen and (max-width: 600px){
+            .container p{
+                font-size: 22px;
+                left: 3%;
+            }
+
+            .container .btn{
+                width: 20vw;
+                left: 20%;
+            }
+
+            .container .btn-2{
+                width: 20vw;
+                left: 60%;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    
+    <div id="particles-js"></div>
+    <div class="container">
+        <p>Here is Some Instruction You need to Read Before Starting</p>
+        <button class="btn"><a href="Basic commands-converted.pdf">Download</a></button>
+        <button class="btn-2"><a href="first.html">Get Started</a></button>
+    </div>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
